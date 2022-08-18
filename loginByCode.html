@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="js/rem.js"></script>
+	<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+	    <script src="js/loginByCode.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/loginByCode.css">
+    <title>19软工3班第8小组移动互联H5课程设计期末作品</title>
+</head>
+<body>
+<div class="title">
+    <span>手机验证码登录</span>	
+	<a href="index.html">
+    <span id="pdclose"></span></a>
+</div>
+<div class="title-reg">
+    <span>使用已注册的手机号登录</span>
+    <span>没有账号？立即<a href="register.html">注册</a></span>
+</div>
+<div class="info-input">
+    <div class="input-phone">
+        <span>+ 86&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <input style="outline:none;" type="tel" id="tel" value="" placeholder="请输入手机号">
+    </div>
+	<div style="height: 3px;background-color: #F5F2F0;"></div>
+    <div class="send_code">
+        <input style="outline:none;" placeholder="请输入验证码" id="checkCode">
+        <span id="send_code_btn">发送验证码</span>
+    </div>
+    <div style="height: 3px;background-color: #F5F2F0;"></div>
+</div>
+<div class="btn-login">
+    <input type="button" value="登 录" onclick="loginMethod()">
+</div>
+<div class="btn-tips">
+    <a href="loginByPassword.html">账号密码登录</a>
+	<a href="misspassword.html">忘记密码</a>
+</div>
+<div class="tail">
+    <span>登录即代表您同意<span id="tail_second">《国聘用户服务协议》、《国聘隐私政策》</span></span>
+</div>
+</body>
+</html>

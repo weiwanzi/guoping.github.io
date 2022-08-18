@@ -1,0 +1,132 @@
+body {
+	font-size: 0.32rem;
+	padding: 0;
+	margin: 0;
+	background-color: #f2f3f2;
+}
+
+a {
+	font-size: 0.5rem;
+	text-decoration: none;
+	color: #666666;
+}
+
+.div1 {
+	padding: 0.25rem;
+	font-size: 0.25rem;
+	color: #666666;
+	background-color: #ffffff;
+}
+
+.div1_s {
+	font-size: 0.5rem;
+	margin-left: 28%;
+	font-weight: 300;
+}
+
+.tags_list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-top: 0.35rem;
+}
+
+.tags_list span {
+	border: 1px solid #ccc;
+	border-radius: 0.1rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	text-align: center;
+	padding: 0.1rem 0.2rem;
+	margin: 0.2rem 0;
+}
+
+.tags_list span.active {
+	border-color: rgb(240, 53, 53);
+	color: rgb(235, 49, 49);
+	background-color: rgb(240, 203, 203);
+}
+
+#new_tag {
+
+	width: 4.5rem;
+	height: 1rem;
+	color: #232323;
+	font-size: 0.35rem;
+	border: none;
+	font-weight: bold;
+}
+
+#add_new_tag {
+
+	color: rgb(204, 46, 0);
+	font-size: 0.20rem;
+	border: 1px solid rgb(240, 53, 53);
+	border-radius: 0.1rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	text-align: center;
+	padding: 0.1rem 0.2rem;
+	margin: 0.2rem 0;
+
+}
+
+#new_tag::placeholder {
+	font-family: "微软雅黑";
+	font-size: 0.35rem;
+	color: #cccccc;
+}
+
+.div2 {
+	padding: 0.1rem;
+}
+
+.xing {
+	color: #F35252;
+	font-size: 0.2rem;
+	line-height: 0.2rem;
+}
+
+.div2-name {
+	font-size: 0.30rem;
+	color: #999999;
+}
+
+.div2-div {
+	background-color: #ffffff;
+	border: #000000;
+
+}
+
+.div2-userImage {
+	border: none;
+	width: 100%;
+	height: 2rem;
+	font-family: "微软雅黑";
+	font-size: 0.35rem;
+	font-weight: bold;
+	color: #232323;
+
+
+}
+
+.div2-userImage::placeholder {
+	font-family: "微软雅黑";
+	font-size: 0.35rem;
+	color: #cccccc;
+}
+
+.btn-style {
+	margin-left: 0.7rem;
+	margin-top: 1rem;
+	width: 80vw;
+	height: 6vh;
+	background-color: #ef0000;
+	font-size: 0.3rem;
+	color: white;
+	border: none;
+	border-radius: 0.2rem;
+}
+
+
+

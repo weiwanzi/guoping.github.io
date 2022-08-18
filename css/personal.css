@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a {text-decoration: none;}
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+a:active {text-decoration: none;}
+
+body {
+    background-color: #f8f8fa;
+}
+
+.bb{
+    width: 100%;
+    height: 5rem;
+    position: relative;
+    /* z-index: -1; */
+    overflow: hidden;
+}
+.bb::after {
+    content: '';
+    width: 120%;
+    height: 4.6rem;
+    position: absolute;
+    left: -10%;
+    top: 0;
+    z-index: -1;
+    border-radius: 0 0 50% 50%;
+    background: linear-gradient(to right,#ff8787,#f35252);
+}
+
+.bb_content {
+    margin-top: 1rem;
+    margin-left: 0.8rem;
+    display: flex;
+}
+
+.bb_content .head {
+
+}
+
+.bb_content .head span {
+    border-radius: 50%;
+    font-size: 1.6rem;
+    color: #8e8e90;
+    background: white;
+}
+
+.head .head_p {
+    width: 1.2rem;
+    height: 0.44rem;
+    line-height: 0.44rem;
+    font-size: 0.32rem;
+    border-radius: 0.2rem;
+    text-align: center;
+    border: 0.02rem solid #f4d697;
+    background: linear-gradient(to right,#fd9172,#f85841);
+    color: white;
+    position: relative;
+    top: -0.3rem;
+    left: 0.16rem;
+}
+
+.bb_info {
+    margin-left: 0.3rem;
+    width: 50vw;
+    font-size: 0.36rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.bb_info span {
+    margin-top: 0.2rem;
+}
+
+.bb_info_i {
+    display: flex;
+}
+.bb_info_i a {
+	margin-top: 0.2rem;
+	font-size: 0.36rem;
+	color: white;
+}
+
+.bb_info_i i{
+    margin-top: 0.26rem;
+    margin-left: 0.04rem;
+    font-size: 0.4rem;
+}
+
+#lingdang {
+    color: white;
+    font-size: 0.6rem;
+    margin-top: 0.2rem;
+}
+
+.recent {
+    width: 90vw;
+    height: 16vh;
+    position: relative;
+    top: -1.8rem;
+    left: 5vw;
+    border-radius: 0.2rem ;
+    background: #ffffff;
+    border: 0.02rem solid #dfdfe1;
+    font-size: 0.3rem;
+    margin-bottom: -1.8rem;
+}
+
+.recent p {
+    color: #ed6048;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+}
+
+.recent_number {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.2rem;
+    font-size: 0.28rem;
+}
+ 
+.recent_number_child {
+    display: flex;
+    flex-direction: column;	
+}
+.recent_number_child span {
+    display: flex;
+    flex-direction: column;
+	color: #000000;
+}
+.recent_number_child :nth-child(1) {
+    margin-left: 0.4rem;
+    margin-bottom: 0.1rem;
+    font-size: 0.44rem;
+	color: #000000;
+    font-weight: bold;
+}
+
+.message {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin-left: 5vw;
+    height: 6vh;
+    line-height: 6vh;
+    background: #f9eded;
+    border-radius: 0.2rem;
+    font-size: 0.28rem;
+    margin-top: 0.2rem;
+}
+
+.message :nth-child(1) {
+    margin-left: 0.6rem;
+}
+
+.message :nth-child(2) {
+    margin-right: 0.3rem;
+    color: red;
+}
+
+.img img {
+    width: 90vw;
+    margin-left: 5vw;
+    height: 10vh;
+    margin-top: 0.2rem;
+    border-radius: 0.14rem;
+}
+
+.opt {
+    width: 90vw;
+    margin-left: 5vw;
+    height: 28vh;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 0.32rem;
+    color: #6b6b6b;
+}
+.opt a{
+	color: #6b6b6b;
+}
+.opt_item {
+    background: #ffffff;
+}
+.opt_item a {
+    color: #6b6b6b;
+}
+
+
+.opt_item :nth-child(1) {
+    margin-left: 0.2rem;
+}
+
+#special_opt_item :nth-child(3) {
+    margin-left: 0.6rem;
+    line-height: 0.2rem;
+    font-size: 0.28rem;
+    color: #8e8e90;
+}
+.opt_item :last-child{
+    float: right;
+    margin-right: 0.2rem;
+    color: #c8c8cd;
+}
+
+.footer {
+    position: fixed;
+    left: 0rem;
+    bottom: 0rem;
+    width: 100%;
+    background-color: #eee;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 0.28rem;
+}
+
+.footer .menu-module {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer a{
+	color: #6b6b6b; 
+}
+.footer .menu-module i {
+    font-size: 0.4rem;
+}

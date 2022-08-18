@@ -1,0 +1,430 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 0.6rem;
+}
+p {
+	text-align: center;
+	font-size: 0.6rem;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+/* css定义分页，导航按钮颜色 */
+#case5 {
+	--swiper-theme-color: #ff6600;
+	--swiper-pagination-color: #00ff33;
+	/* 两种都可以 */
+}
+
+#case6 img,
+#case7 img {
+	transform: scale(0.7);
+}
+
+#case7 {
+	width: auto;
+}
+
+.top {
+	height: 2.5rem;
+	background-color: rgb(238, 238, 238);
+	display: flex;
+	position: relative;
+}
+
+.x {
+	margin-top: 0.75rem;
+	margin-left: -1.3rem;
+}
+
+.x span {
+	font-size: 0.6rem;
+}
+
+.topt {
+	margin-top: 0.5rem;
+	margin-left: 2rem;
+}
+
+.im {
+	margin-left: 0.3rem;
+	border-radius: 0.5rem;
+	margin-top: 0.6rem;
+	width: 1.3rem;
+	height: 1.3rem;
+	border-radius: 0.3rem;
+}
+
+.d1 {
+	margin-top: 0.4rem;
+	margin-left: 0.4rem;
+}
+
+.butt {
+	position: absolute;
+	right: 1rem;
+	top: 0.7rem;
+	width: 3.2rem;
+	height: 1.1rem;
+	background-color: rgb(221, 0, 0);
+	border-radius: 0.5rem;
+	line-height: 1rem;
+	text-align: center;
+	color: white;
+	font-size: 0.6rem;
+}
+
+.qg {
+	z-index: 9999999999;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0rem;
+	height: 2rem;
+	display: flex;
+	padding-left: 1rem;
+	box-sizing: border-box;
+	line-height: 5rem;
+	background-color: white;
+
+}
+
+.qg select {
+	border: 0;
+	font-size: 0.6rem;
+}
+
+.qg option {
+	font-size: 0.6rem;
+}
+
+.input {
+	width: 14.8rem;
+	height: 1.5rem;
+	background-color: rgb(238, 238, 238);
+	border: none;
+	border-radius: 0.3rem;
+	margin-top: 0.3rem;
+	padding-left: 1.3rem;
+	box-sizing: border-box;
+	font-size: 0.6rem;
+}
+
+.qg img {
+	position: absolute;
+	margin-left: 3rem;
+	margin-top: 0.8rem;
+	width: 0.5rem;
+	height: 0.5rem;
+}
+.swiper-container {
+	width: 100%;
+	height: 10rem;
+	margin: 0 auto;
+}
+
+.swiper-button-next {
+	right: 1rem;
+	left: auto;
+}
+
+.swiper-button-prev {
+	left: 1rem;
+	right: auto;
+}
+
+.sgtb {
+	width: 100%;
+	height: 2.9rem;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 0.5rem;
+}
+
+.sgtb1 {
+	text-align: center;
+	width: 4rem;
+	height: 4rem;
+	font-size: 0.6rem;
+}
+
+.sgtb img {
+	width: 35%;
+	height: 1.3rem;
+}
+
+.gpxd {
+	width: 100%;
+	height: 1.5rem;
+	text-align: center;
+	line-height: 1rem;
+}
+
+.center {
+	background-color: rgb(240, 242, 245);
+}
+
+.dptp {
+	padding-top: 0.25rem;
+	box-sizing: border-box;
+	text-align: center;
+	width: 100%;
+	position: relative;
+}
+
+.dptpd {
+	position: relative;
+	text-align: left;
+	padding: 0.5rem;
+	box-sizing: border-box;
+	margin: auto;
+	width: 96%;
+	height: 5.5rem;
+	background-color: white;
+	border-radius: 0.5rem;
+	margin-bottom: 0.15rem;
+}
+
+/* 这是文字轮播 */
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+.scrollDiv {
+	height: 3.25rem;
+	/* 必要元素 */
+	overflow: hidden;
+	/* 必要元素 */
+}
+
+.scrollDiv li {
+	height: 100px;
+	padding-left: 10px;
+	font-size: 0.68rem;
+	color: #6B6B6B;
+	font-weight: 500;
+	 line-height:30px;
+}
+.f{
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.scrollDiv li a {
+	word-wrap: break-word;
+}
+
+ul,li {
+	list-style-type: none;
+}
+
+.jse {
+	position: absolute;
+	top: 0.75rem;
+	left: 4rem;
+	width: 2.2rem;
+	height: 0.6rem;
+	background-color: rgb(255, 137, 48);
+	border-radius: 0.4rem;
+	text-align: center;
+	line-height: 0.6rem;
+	font-size: 0.6rem;
+}
+
+.dptp img {
+	margin-top: 0.15rem;
+	width: 96%;
+	height: 4.5rem;
+	border-radius: 0.5rem;
+}
+
+.zctj {
+	padding-bottom: 3rem;
+}
+
+.zctop span {
+	margin-right: 1rem;
+	cursor: pointer;
+	font-size: 0.6rem;
+}
+
+.xbk {
+	position: absolute;
+	width: 2rem;
+	height: 0.2rem;
+	border-radius: 1rem;
+	background-color: blue;
+	left: 0.9rem;
+}
+
+.xbk1 {
+	position: absolute;
+	width: 2rem;
+	height: 0.2rem;
+	border-radius: 1rem;
+	background-color: blue;
+	left: 4.5rem;
+}
+
+.xbk2 {
+	position: absolute;
+	width: 2rem;
+	height: 0.2rem;
+	border-radius: 1rem;
+	background-color: blue;
+	left: 8rem;
+}
+
+a:hover {
+	color: #3366cc;
+	text-decoration: underline;
+}
+
+.zcnr {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.zcnr1 {
+	margin-top: 0.6rem;
+	font-weight: bolder;
+	line-height: 1rem;
+	text-align: center;
+	width: 46%;
+	height: 6.5rem;
+	background-color: white;
+	border-radius: 0.3rem;
+	font-size: 0.6rem;
+}
+
+.zcnr1 img {
+	width: 100%;
+	height: 75%;
+	border-radius: 0.2rem;
+}
+
+.tab1{
+	float: left;
+	width: 33%;
+}
+
+.rmzy{
+	width: 90%;
+	margin-top: 0.5rem;
+	background-color: #ffffff;
+	padding: 1rem;
+	height: 14rem;
+}
+
+.r1,.r2,.r3{
+	margin-top: 0rem;
+	width: 100%;
+	height: 5rem;
+	line-height: 1rem;
+}
+
+.tp img{
+	float: left;
+	margin-top: 0.5rem;
+	width: 2rem;
+	height: 2rem;
+}
+
+.gw{
+	float: left;
+	font-size: 0.7rem;
+	font-weight: 800;
+	margin-left: 0.5rem;
+}
+
+.ms{
+	float: right;
+	color: #aa0000;
+}
+
+.gs{
+	float: left;
+	margin-top: 1.2rem;
+}
+
+.r1 .gs span{
+	margin-left: -5.6rem;
+}
+
+.r2 .gs span{
+	margin-left: -5rem;
+}
+
+.r3 .gs span{
+	margin-left: -5.6rem;
+}
+
+.bq{
+	float: left;
+	width: 90%;
+	height: 1rem;
+	margin-left: 2rem;
+}
+
+.bq span{
+	margin-top: 3.3rem;
+	margin-left: 0.5rem;
+	width: 3.5rem;
+	height: 0.8rem;
+	background-color: rgb(232, 231, 233);
+	border-radius: 0.2rem;
+}
+
+
+.demopage {
+	width: 730px;
+	margin: 0 auto;
+}
+
+.demopage h2 {
+	font-size: 14px;
+	margin: 20px 0;
+}
+
+.bottom {
+	position: fixed;
+	left: 0rem;
+	bottom: 0rem;
+	width: 100vw;
+	height: 2.5rem;
+	background-color: #f0f0f0;
+	z-index: 9999;
+	justify-content: space-around;
+	display: flex;
+}
+
+.b1 {
+	text-align: center;
+	width: 2rem;
+	height: 3rem;
+	font-size: 0.6rem;
+	margin-top: 0.2rem;
+}
+
+.b1 img {
+	width: 80%;
+	height: 1.1rem;
+}
+
+.b1 a{
+	text-align: center;
+	width: 1.8rem;
+	height: 3rem;
+	font-size: 0.6rem;
+	margin-top: 0.2rem;
+}
+

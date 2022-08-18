@@ -1,0 +1,146 @@
+body {
+	font-size: 0.32rem;
+	padding: 0;
+	margin: 0;
+	background-color: #f2f3f2;
+}
+
+a {
+	font-size: 0.5rem;
+	text-decoration: none;
+	color: #666666;
+}
+
+.div1 {
+	padding: 0.25rem;
+	font-size: 0.25rem;
+	color: #666666;
+	background-color: #ffffff;
+}
+
+.div1_s {
+	font-size: 0.5rem;
+	margin-left: 28%;
+	font-weight: 300;
+}
+
+.msg-1 {
+	float: left;
+	width: 43%;
+	text-align: center;
+	font-size: 0.32rem;
+	font-weight: 300;
+	padding-top: 0.2rem;
+	padding-bottom: 0.2rem;
+	cursor: pointer;
+
+}
+
+.msg-2 {
+	margin-left: 0.3rem;
+}
+
+.msg-3 {
+	background-color: #F8F8FA;
+	padding: 0.5rem;
+	margin-top: 0.6rem;
+	height: 100rem;
+}
+
+.msg4-1 {
+	width: 2.8rem;
+	height: 1rem;
+	outline: none;
+	border: 0px;
+	font-size: 0.32rem;
+}
+
+.msg4::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #cccccc;
+	opacity: 1;
+	font-size: 0.32rem;
+	font-weight: 400;
+}
+
+.div4 {
+	background-color: #FFFFFF;
+	
+}
+.div4 select {
+	float: left;
+	margin-top: 0.3rem;
+	border: 0;
+	font-size: 0.32rem;
+	margin-left: 0.1rem;
+}
+
+.div4 option {
+	font-size: 0.32rem;
+}
+.div4 span {
+	font-size: 0.32rem;
+	color: #b3b3b3;
+	margin-left: 0.2rem;
+}
+
+i {
+	border: solid black;
+	border-width: 0 1px 1px 0;
+	display: inline-block;
+	padding: 3px;
+}
+
+.down {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+
+.div4 d{
+	font-size: 0.32rem;
+	color:#DF5000;
+	margin-left: 0.2rem;
+}
+.mg img{
+	width:6rem;
+	height:4.5rem;
+}
+.btn-login {
+    margin-top: 10vh;
+}
+
+.btn-login input{
+    width: 90vw;
+    height: 7vh;
+    background-color: #ef0000;
+    font-size: 0.32rem;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+}
+.xbk {
+	position: absolute;
+	margin-left: 0.3rem;
+	width: 3rem;
+	height: 0.04rem;
+	background-color: red;
+}
+
+.xbk1 {
+	position: absolute;
+	margin-left: -0.7rem;
+	width: 3rem;
+	height: 0.04rem;;
+	background-color: red;
+	left: 4.5rem;
+}
+.tab{
+	background-color: #F8F8FA;
+	padding: 0.5rem;
+	margin-top: 0.6rem;
+	height: 100rem;
+}
+.tab img{
+	width:6rem;
+	height:4.5rem;
+}

@@ -1,0 +1,272 @@
+.div1 {
+	padding:1rem;
+	font-size: 1.5rem;
+	color: #666666;
+}
+.div1-sp1 {
+	font-size: 4rem;
+}
+
+a {
+	font-size: 1.5rem;
+    text-decoration: none;
+	color:  #666666;
+}
+
+.div3 {
+	font-size: 4rem;
+	margin-left: 50rem;
+	color: #cccccc;
+}
+
+.div1-sp2 {
+	margin-left: 28%;
+	font-weight: 300;
+}
+
+.div2 {
+	padding: 0.8rem;
+
+}
+
+.div2-div {
+	border-bottom: 4rem solid #cccccc
+}
+.btn-style{
+	width: 80vw;
+	height: 7vh;
+	background-color: #ef0000;
+	font-size: 3rem;
+	color: white;
+	border: none;
+	border-radius: 0.2rem;
+}
+.div2-userImage {
+	height: 6rem;
+	width: 40rem;
+	outline: none;
+	font-size: 3rem;
+	border: 0rem
+}
+
+.div2-name {
+	font-size: 2.25rem;
+	color: #cccccc;
+}
+
+.div2-name1 {
+	font-size: 2.25rem;
+	color: #252425;
+}
+
+.input1::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #999999;
+	opacity: 1;
+	font-size: 3rem;
+	font-weight: 300;
+}
+
+.input4::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #999999;
+	opacity: 1;
+	font-size: 2.5rem;
+	font-weight: 300;
+}
+
+.input5::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #151515;
+	opacity: 1;
+	font-size: 2.5rem;
+	font-weight: 400;
+}
+
+.input6::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #cccccc;
+	opacity: 1;
+	font-size: 2.5rem;
+	font-weight: 400;
+}
+
+.input2::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #cccccc;
+	opacity: 1;
+	font-size: 3rem;
+	font-weight: 500;
+}
+
+.input3::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #000000;
+	opacity: 1;
+	font-size: 3rem;
+	font-weight: 500;
+}
+
+.xing {
+	color: #F35252;
+	font-size: 2rem;
+	line-height: 2rem;
+}
+
+.word-div1 {
+	float: right;
+	font-size: 2.8rem;
+	line-height: 5rem;
+}
+
+.word-div2 {
+	font-size: 3rem;
+	float: left;
+}
+.word-div2-2 {
+	float: right;
+	padding: 1rem;
+	background-color: rgb(255, 255, 255);
+	border-radius: 1rem;
+	margin-left: 0rem;
+	border: 0.125rem solid #e01d26
+}
+.word-div2-1 {
+	float: left;
+	padding: 0.3rem;
+	background-color: rgb(247, 224, 225);
+	border-radius: 1rem;
+	margin-left: 5rem;
+}
+
+.word-div-2-span {
+	font-size: 2.5rem;
+	font-weight: 300;
+}
+
+.word-but {
+	width: 40rem;
+	background-color: #ff252a;
+	height: 8rem;
+	border-radius: 1rem;
+}
+
+.word-butd {
+	width: 100%;
+	text-align: center;
+}
+
+.msg-1 {
+	float: left;
+	width: 50%;
+	text-align: center;
+	font-size: 2.6rem;
+	font-weight: 300;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	cursor: pointer;
+
+}
+
+.msg-2 {
+	border-bottom: 4rem solid #e01d26
+}
+
+.msg-3 {
+	background-color: #F8F8FA;
+	padding: 2rem;
+	margin-top: 8rem;
+	height: 100rem;
+}
+
+.msg4-1 {
+	width: 10rem;
+	height: 4rem;
+	outline: none;
+	border: 0rem;
+	font-size: 2rem;
+}
+
+.msg4::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #cccccc;
+	opacity: 1;
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+.msg5 {
+	width: 100%;
+	margin-bottom: 2rem;
+}
+
+.msg6 {
+	color: #cccccc;
+	float: right;
+	font-size: 2rem;
+}
+
+.msg8 {
+	color: #cccccc;
+	font-size: 2rem;
+}
+
+.msg7 {
+	float: right;
+	font-size: 2rem;
+}
+
+.msg10 {
+	text-align: center;
+	width: 100%;
+	background-color: rgb(247, 235, 235);
+	border-radius: 1rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.set1 {
+	float: right;
+	color: #CCCCCC;
+	margin-left: 0.8rem;
+	font-size: 2rem;
+	line-height:2.4rem;
+}
+
+.set2 {
+	font-size: 1rem;
+	color: #cccccc;
+	float: right;
+	line-height: 2.6rem;
+}
+
+.edit1 {
+	padding: 0.3rem 2rem 0.3rem 2rem;
+	background-color: rgb(247, 224, 225);
+	border-radius: 0.5rem;
+	cursor: pointer;
+}
+.edit2{
+	border: 2rem solid #e01d26;
+}
+.edit3{
+	background-color: #FFFFFF;
+	border: 2rem solid #999999;
+	color: #999999;
+}
+.btn-login {
+    margin-top: 2vh;
+}
+.btn-login{
+	margin-top: 3vh;
+}  
+.btn-login input{
+	margin-left: 2rem;
+	width:80vw;
+	height: 6vh;
+	background-color: #EF0000;
+	font-size: 1rem;
+	color: white;
+	border: none;
+	border-radius: 0.2rem;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="./js/jquery-3.6.0.min.js"></script>
+		<script src="js/rem.js"></script>
+		<script src="./js/com.js" type="text/javascript"></script>	
+		<script src="https://www.jq22.com/jquery/vue.min.js"></script>
+		<script src="https://cdn.bootcss.com/axios/0.19.0-beta.1/axios.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="./css/userNotic.css">
+		<title>19软工3班第8小组移动互联H5课程设计期末作品</title>
+		
+
+	</head>
+	<body>
+		<div>
+			<div class="div1">
+				<a href="javascript:history.go(-1);">
+					 &lt;</a>
+					 <span class="div1-sp2">意见反馈</span>
+			</div>
+			<div class="msg10">
+				<img src="img/notic.png" style="width: 90%;" />
+			</div>
+			<div class="div2">
+				<div>
+					<span class="div2-name1">
+						联系方式
+					</span>
+					<span class="xing">
+						*
+					</span>
+				</div>
+				<div class="div2-div">
+					<input class="div2-userImage input5" value="" placeholder="13423445655" />
+					<div style="height: 2px;background-color: #F5F2F0;"></div>
+				</div>
+			</div>
+			<div class="div2">
+				<div>
+
+					<span class="div2-name1">
+						意见类型
+					</span>
+					<span class="xing">
+						*
+					</span>
+				</div>
+				<select class="sex" >
+					<option value="volvo">
+						<span>请选择</span>
+					</option>
+					<option value="saab">投诉</option>
+					<option value="opel">建议</option>
+					<option value="obic">参考</option>
+				</select>
+					<div style="height: 2px;background-color: #F5F2F0;" ></div>
+			</div>
+			<div class="div2">
+				<div>
+					<span class="div2-name1">
+						意见内容
+					</span>
+					<span class="xing">
+						*
+					</span>
+
+				</div>
+				<div class="textarea-wrapper">
+				    <div class="textarea-block">
+				        <textarea class="textarea-item" name="content" placeholder="请输入内容，不超过200字。" maxlength="200" spellcheck="false"></textarea>
+				        <div class="textarea-count">
+				            <span class="textareaInput">0</span><span class="textareaTotal" style="color: #8E8E90;">/200</span>
+				        </div>
+				    </div>
+				</div>
+				</div>
+			<div id="app" class="container" v-cloak>
+			    <div class="uploading-data" v-if="isUploading"></div>
+			
+			    <div class="upload-img-column">
+			        <div class="words">图片上传</div>
+			        <div class="upload-wrap">
+			            <div class="box">
+			                <label class="p dotted">
+			                    <input type="file" accept="image/jpg,image/jpeg,image/png" name="file"
+			                           @change="onChooseImage($event)"/>
+			                    <img  src="./img/jia1.png" alt="">
+			                </label>
+			            </div>
+			            <template v-for="(imgItem, imgIndex) in imgTempList">
+			                <div class="box">
+			                    <div class="p">
+			                        <img :src="imgItem">
+			                        <div class="delete" @click.stop="deleteImg(imgIndex)">
+			                            <img src="./img/guanbi.png" alt="">
+			                        </div>
+			                    </div>
+			                </div>
+			            </template>
+			        </div>
+			    </div>
+			
+			   <div class="btn-login">
+			       <input type="button" value="登 录" onclick="loginMethod()">
+			   </div>
+			
+			</div>
+			</div>
+	</body>
+		<script src="js/userNotic.js"></script>
+</html>

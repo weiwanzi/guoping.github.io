@@ -1,0 +1,13 @@
+a:hover,a:link,a:visited,a:active,a:focus{
+	color: #8E8E90;
+	text-decoration: none;
+}
+.div1 hr{
+	margin-top: 0rem;
+	height: 0.02rem;
+	background-color:#CCCCCC
+}
+.div1 span{
+	font-size: 2rem;
+	text-align:center;
+	}

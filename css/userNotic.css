@@ -1,0 +1,288 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a:hover,a:link,a:visited,a:active,a:focus{
+	margin-top: 0.1rem;
+    color: #969896;
+    text-decoration: none;
+	font-size: 0.5rem;
+	font-weight:bold;
+	float: left;
+}
+body{
+    width: 90vw;
+    margin-left: 5vw;
+}
+.div1{
+	text-align:center
+}
+.div1 span{
+	margin-top: 0.2rem;
+	float: left;
+	margin-left: 2.4rem;
+	font-size: 0.4rem;
+	text-align:center
+}
+.msg10 img{
+	margin-top: 0.3rem;
+}
+.div2{
+	margin-top: -0.5rem;
+	margin-left: 0.3rem;
+}
+.div2 span{
+	font-size: 0.3rem;
+}
+.xing {
+	color: #F35252;
+	font-size: 0.6rem;
+	line-height: 0.6rem;
+}
+.div2-div{
+	border:0.06rem;
+	margin-top: -0.5rem;
+}
+.div2-userImage {
+	border: none;
+	width: 90%;
+	height: 0.7rem;
+	font-weight: bold;
+}
+.input5::-webkit-input-placeholder{
+	color: #000000;
+	opacity: 1;
+	font-size: 0.4rem;
+	font-weight: 500;
+	
+}
+.input6::-webkit-input-placeholder{
+	color: #DFDFE1;
+	opacity: 1;
+	font-size: 0.4rem;
+	font-weight: 500;
+	
+}
+.div3{
+	float: right;
+	margin-top: 0.75rem;
+}
+.input6::-webkit-input-placeholder{
+	color: #DFDFE1;
+	opacity: 1;
+	font-size: 0.4rem;
+	font-weight: 500;;
+	
+}
+.msg6 {
+	margin-top: -0.5rem;
+	color: #cccccc;
+	float: right;
+}
+.msg7 {
+	margin-top: -0.5rem;
+	float: right;
+	margin-right: 0.7rem;
+	color: #000000;
+}
+
+
+
+
+.container {
+	width: 100%;
+	max-width: 600px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+
+
+
+
+.upload-img-column {
+	width: 100%;
+	margin-left: 0.2rem;
+	padding: 0.2rem;
+}
+
+.upload-img-column .words {
+	font-size: 0.28rem;
+	
+}
+
+.upload-img-column .upload-wrap {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+		
+}
+
+.upload-img-column .upload-wrap .box {
+	width: 33.33vw;
+	padding: 0.2rem 0 0;
+}
+
+.upload-img-column .upload-wrap .box .p {
+	width: 33vw;
+	height: 0;
+	padding-bottom: 33vw;
+	border-radius: 0.1rem;
+	position: relative;
+	overflow: hidden;
+	
+}
+
+.upload-img-column .upload-wrap .box .p img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 0.1rem;
+	overflow: hidden;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	top: 50%;
+}
+
+.upload-img-column .upload-wrap .box .p .delete {
+	width: 0.6rem;
+	height: 0.6rem;
+	text-align: center;
+	border-radius: 50%;
+	background: #e0e0e0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	opacity: 0.8;
+}
+
+.upload-img-column .upload-wrap .box .p .delete:active {
+	-webkit-transform: scale(0.95);
+	    -ms-transform: scale(0.95);
+	        transform: scale(0.95);
+}
+
+.upload-img-column .upload-wrap .box .p .delete img {
+	width: 0.28rem;
+	height: 0.28rem;
+}
+
+.upload-img-column .upload-wrap .box .p.dotted {
+	display: block;
+	border:solid 0.02rem #CCCCCC;
+}
+
+.upload-img-column .upload-wrap .box .p.dotted input {
+	display: none;
+}
+
+.upload-img-column .upload-wrap .box .p.dotted img {
+	width: 60%;
+	height: auto;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	opacity: .8;
+}
+
+
+.uploading-data {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.3);
+	left: 0;
+	top: 0;
+	z-index: 1000;
+}
+
+.success-path {
+	width: 100%;
+	padding: 0 10px;
+}
+
+.success-path a {
+	display: block;
+	margin-top: 6px;
+}
+.btn-login{
+	margin-top: 1vh;
+	margin-bottom: 2vh;
+}  
+.btn-login input{
+	margin-left: 0.6rem;
+	width:80vw;
+	height: 6vh;
+	background-color: #EF0000;
+	font-size: 0.32rem;
+	color: white;
+	border: none;
+	border-radius: 0.2rem;
+}
+.sex{
+	 width:85vw; 
+	 font-size: 0.5rem;
+	 border: none;
+	 color: #999999;
+}
+select {
+  /*背景：和其他元素一样，都是设置 background 属性*/
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  background: url(../img/jt1.png) no-repeat scroll right center transparent;  
+  padding-right: 0.1rem;
+   
+}
+.textarea-wrapper {
+	width: 70vw;
+	margin:0.1rem;
+}
+
+.textarea-block {
+	position: relative;
+}
+
+.textarea-item {
+	width: 70vw;
+	height: 4rem;
+	border: none;
+	padding: 0.2rem;
+	resize: none;
+	color: #aaa;
+}
+
+.textarea-count {
+	position: absolute;
+	bottom: 0.2rem;
+	right: 0;
+	color:black;
+	font-size: 0.32rem;
+}
+

@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.div1{
+	padding: 1.25rem;
+	font-size: 1.625rem;
+	color: #666666;
+
+}
+.div1-sp1{
+	font-size: 1.25rem;
+}
+a{
+	text-decoration: none;
+	color: #666666;
+
+}
+.div1-sp2{
+	margin-left: 24vw;
+	font-weight: 300;
+}
+.div2{
+	margin-top: 1vh;
+	padding: 0.6rem;
+}
+.div2-div{
+	border-bottom: 0.125rem solid #CCCCCC;
+}
+.div2-userImage::placeholder {
+	font-family: "微软雅黑";
+	font-size: 1.125rem;
+	color: #cccccc;
+}
+.div3{
+	float: right;
+	color: #CCCCCC;
+	font-size: 1.25rem;
+}
+.div2-name{
+	font-size: 1rem;
+	color: #6d6d6d;
+}
+.xing{
+	color: #FF252A;
+	font-size: 1.25rem;
+	line-height: 2rem;
+}
+.div2-userImage{
+	height: 1.25rem;
+	width: 80%;
+	outline: none;
+	font-size: 1.25rem;
+	display: flex;
+ 	border: none; 
+}
+.di1 img{
+	float: left;
+}
+.input1{
+	float: left;
+	margin-left: 2rem;
+	margin-top: 0.2rem;
+	border: none; 
+}
+.input1::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #999999;
+	opacity: 1;
+	font-size: 3rem;
+	font-weight: 300;
+}
+.input2::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #cccccc;
+	opacity: 1;
+	font-size: 3rem;
+	font-weight: 500;
+}
+
+.input3::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #000000;
+	opacity: 1;
+	font-size: 3rem;
+	font-weight: 500;
+}
+.input4::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #999999;
+	opacity: 1;
+	font-size: 2.5rem;
+	font-weight: 300;
+}
+
+.input5::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #151515;
+	opacity: 1;
+	font-size: 2.5rem;
+	font-weight: 400;
+}
+
+.input6::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #cccccc;
+	opacity: 1;
+	font-size: 2.5rem;
+	font-weight: 400;
+}
+.word-div1{
+	float: right;
+	font-size: 1.125rem;
+	line-height: 2.5rem;
+}
+
+.word-div2 {
+	font-size: 1.25rem;
+	float: left;
+
+}
+.w-d {
+	margin-top: 1vh;
+	font-size: 1.25rem;
+	float: left;
+
+}
+.word-div2-2 {
+	float: right;
+	padding: 1rem;
+	background-color: rgb(255, 255, 255);
+	border-radius: 1rem;
+	margin-left: 0rem;
+	border: 0.125rem solid #e01d26
+}
+.word-div2-1 {
+	float: left;
+	padding: 0.125rem ;
+	background-color: rgb(247, 224, 225);
+	border-radius: 0.5rem;
+	margin-left: 1.5rem;
+}
+.word-div-2-span {
+	font-size: 1rem;
+	font-weight: 300;
+}
+.word-but{
+	width: 10rem;
+	background-color: #FF252A;
+	height: 10rem;
+	border-radius: 1rem;
+}
+

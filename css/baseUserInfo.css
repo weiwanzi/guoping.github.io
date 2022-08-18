@@ -1,0 +1,131 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.div1{
+	margin-top: -2vh;
+	padding: 1.25rem;
+	font-size: 1.625rem;
+	color: #666666;
+
+}
+.div1-sp1{
+	font-size: 1.25rem;
+}
+a{
+	text-decoration: none;
+	color: #666666;
+
+}
+.div1-sp2{
+	margin-left: 17vw;
+	font-weight: 300;
+}
+.div2{
+	margin-top: 1vh;
+	padding: 0.6rem;
+}
+.div2-div{
+	border-bottom: 0.1rem solid #E0E0E0;
+}
+.div2-userImage::placeholder {
+	font-family: "微软雅黑";
+	font-size: 1.125rem;
+	color: #cccccc;
+}
+.div3{
+	float: right;
+	color: #CCCCCC;
+	font-size: 1.25rem;
+}
+.div2-name{
+	font-size: 1rem;
+	color: #6d6d6d;
+}
+.xing{
+	color: #FF252A;
+	font-size: 1.25rem;
+	line-height: 2rem;
+}
+.div2-userImage{
+	height: 1.25rem;
+	width: 80%;
+	outline: none;
+	font-size: 1.25rem;
+	border: none;
+}
+.input1::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #999999;
+	opacity: 1;
+	font-size: 3rem;
+	font-weight: 300;
+}
+.input2::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #cccccc;
+	opacity: 1;
+	font-size: 3rem;
+	font-weight: 500;
+}
+
+.input3::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #000000;
+	opacity: 1;
+	font-size: 3rem;
+	font-weight: 500;
+}
+.input4::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #999999;
+	opacity: 1;
+	font-size: 2.5rem;
+	font-weight: 300;
+}
+
+.input5::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #151515;
+	opacity: 1;
+	font-size: 2.5rem;
+	font-weight: 400;
+}
+
+.input6::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #cccccc;
+	opacity: 1;
+	font-size: 2.5rem;
+	font-weight: 400;
+}
+.btn-login{
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+}  
+.btn-login input{
+	margin-top: 3rem;
+	margin-left: 2rem;
+	width:80vw;
+	height: 6vh;
+	background-color: #EF0000;
+	font-size: 1rem;
+	color: white;
+	border: none;
+	border-radius: 0.2rem;
+}
+.sex{
+	 width:90vw; 
+	 font-size: 1.2rem;
+	 border: none;
+}
+select {
+  /*背景：和其他元素一样，都是设置 background 属性*/
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  background: url(../img/jt1.png) no-repeat scroll right center transparent;  
+  padding-right: 0.1rem;
+   
+}
